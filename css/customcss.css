@@ -1,0 +1,97 @@
+.splash{
+  margin: auto;
+  padding-top: 20px;
+}
+
+.splash .splashBG {
+  background-image: url('../BananaBG.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.splashText {
+    padding: 10px;
+}
+
+.splash .bannertext{
+  position: absolute;
+  bottom: 50%;
+  right: 50%;
+  transform: translate(50%, 50%);
+}
+
+.splash .bannerbutton{
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+}
+
+.services{
+  /* border: 1px solid red; */
+}
+
+.servicesimages div{
+  margin: auto;
+  padding-bottom: 10px;
+}
+.servicesimages img{
+  border: 4px solid black;
+  border-style: dashed;
+  border-bottom-style: solid;
+  border-top-style: solid;
+  border-radius: 50%;
+  width: auto;
+}
+
+@media (max-width: 768px) {
+  .servicesimages img {
+    max-width: 150px;
+  }
+}
+
+.article-one img {
+  width: auto;
+}
+
+.article-one p {
+  padding-left: 0;
+}
+
+.articleone .btn-success{
+  margin: 10px 0;
+}
+
+.input-form {
+  border: 1px solid grey;
+  padding-bottom: 5px;
+}
+
+.submitbutton {
+  padding: 5px 5px;
+}
+/* Screen Resolution Identifier */
+@media (max-width: 575px){
+  body{
+    border-top: 10px solid yellow;
+  }
+}
+@media (min-width: 576px) {
+  body{
+    border-top: 10px solid purple;
+  }
+}
+@media (min-width: 768px) {
+  body{
+    border-top: 10px solid green;
+  }
+}
+@media (min-width: 992px) {
+  body{
+    border-top: 10px solid blue;
+  }
+}
+@media (min-width: 1200px) {
+  body{
+    border-top: 10px solid red;
+  }
+}
