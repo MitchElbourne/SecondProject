@@ -26,10 +26,6 @@
   right: 5%;
 }
 
-.services{
-  /* border: 1px solid red; */
-}
-
 .servicesimages div{
   margin: auto;
   padding-bottom: 10px;
@@ -69,6 +65,43 @@
 .submitbutton {
   padding: 5px 5px;
 }
+
+.contact-container {
+  background-color: #e2dcdc;
+  padding: 2rem;
+  margin-bottom: 3rem;
+}
+
+.contact-elements {
+  display: inline-block;
+  background-color: grey;
+  border-radius: 3rem;
+  border-spacing: 5px;
+  margin-top: 1rem;
+}
+
+.contact-elements img {
+  padding-left: 1rem;
+}
+
+.contact-elements p {
+  display: inline-block;
+  padding-top: 1rem;
+  padding-right: 1rem;
+}
+
+.contact-element-notification {
+  position: absolute;
+  top: -0.9rem;
+  right: 1rem;
+  background: black;
+  color: white;
+  padding: 0.3rem 0.3rem;
+}
+
+
+
+
 /* Screen Resolution Identifier */
 @media (max-width: 575px){
   body{
