@@ -1,15 +1,3 @@
-/* Navbar */
-/* .navbar img {
-  animation-name: zoom;
-  animation-duration: 0.5s;
-  animation-iteration-count: infinite;
-  position: relative;
-} */
-
-/* @keyframes zoom {
-  from {left: 0;}
-  to {left: 100px;}
-} */
 /* Page Splash */
 .splash-background {
   display: flex;
